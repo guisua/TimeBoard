@@ -2,6 +2,8 @@
 
 This App / Watch face tells time with words.
 
+![Screenshot 1](resources/images/verbose1.png) ![Screenshot 2](resources/images/verbose2.png) ![Screenshot 3](resources/images/verbose3.png)
+
 ## Features
 
 - 5 min granularity
