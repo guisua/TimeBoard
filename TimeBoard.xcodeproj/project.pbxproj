@@ -20,6 +20,14 @@
 		9966CDE52176452D00B6B694 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9966CDE42176452D00B6B694 /* ExtensionDelegate.swift */; };
 		9966CDE72176452D00B6B694 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9966CDE62176452D00B6B694 /* ComplicationController.swift */; };
 		9966CDE92176452D00B6B694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9966CDE82176452D00B6B694 /* Assets.xcassets */; };
+		9966CE042176465A00B6B694 /* BebasNeue Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9966CDFD2176465A00B6B694 /* BebasNeue Bold.otf */; };
+		9966CE052176465A00B6B694 /* BebasNeue Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9966CDFD2176465A00B6B694 /* BebasNeue Bold.otf */; };
+		9966CE062176465A00B6B694 /* BebasNeue Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9966CDFD2176465A00B6B694 /* BebasNeue Bold.otf */; };
+		9966CE0D2176465A00B6B694 /* BebasNeue Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9966CE002176465A00B6B694 /* BebasNeue Regular.otf */; };
+		9966CE0E2176465A00B6B694 /* BebasNeue Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9966CE002176465A00B6B694 /* BebasNeue Regular.otf */; };
+		9966CE0F2176465A00B6B694 /* BebasNeue Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9966CE002176465A00B6B694 /* BebasNeue Regular.otf */; };
+		9966CE1121768C2500B6B694 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9966CE1021768C2500B6B694 /* EntryController.swift */; };
+		9966CE1221768C2500B6B694 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9966CE1021768C2500B6B694 /* EntryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +90,9 @@
 		9966CDE62176452D00B6B694 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		9966CDE82176452D00B6B694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9966CDEA2176452D00B6B694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9966CDFD2176465A00B6B694 /* BebasNeue Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Bold.otf"; sourceTree = "<group>"; };
+		9966CE002176465A00B6B694 /* BebasNeue Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue Regular.otf"; sourceTree = "<group>"; };
+		9966CE1021768C2500B6B694 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +142,8 @@
 				9966CDC62176452C00B6B694 /* Assets.xcassets */,
 				9966CDC82176452C00B6B694 /* LaunchScreen.storyboard */,
 				9966CDCB2176452C00B6B694 /* Info.plist */,
+				9966CDFD2176465A00B6B694 /* BebasNeue Bold.otf */,
+				9966CE002176465A00B6B694 /* BebasNeue Regular.otf */,
 			);
 			path = TimeBoard;
 			sourceTree = "<group>";
@@ -148,6 +161,7 @@
 		9966CDE12176452D00B6B694 /* TimeBoard WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				9966CE1021768C2500B6B694 /* EntryController.swift */,
 				9966CDE22176452D00B6B694 /* InterfaceController.swift */,
 				9966CDE42176452D00B6B694 /* ExtensionDelegate.swift */,
 				9966CDE62176452D00B6B694 /* ComplicationController.swift */,
@@ -261,7 +275,9 @@
 			files = (
 				9966CDCA2176452C00B6B694 /* LaunchScreen.storyboard in Resources */,
 				9966CDC72176452C00B6B694 /* Assets.xcassets in Resources */,
+				9966CE042176465A00B6B694 /* BebasNeue Bold.otf in Resources */,
 				9966CDC52176452B00B6B694 /* Main.storyboard in Resources */,
+				9966CE0D2176465A00B6B694 /* BebasNeue Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9966CE0E2176465A00B6B694 /* BebasNeue Regular.otf in Resources */,
+				9966CE052176465A00B6B694 /* BebasNeue Bold.otf in Resources */,
 				9966CDD72176452D00B6B694 /* Assets.xcassets in Resources */,
 				9966CDD52176452C00B6B694 /* Interface.storyboard in Resources */,
 			);
@@ -278,6 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9966CE062176465A00B6B694 /* BebasNeue Bold.otf in Resources */,
+				9966CE0F2176465A00B6B694 /* BebasNeue Regular.otf in Resources */,
 				9966CDE92176452D00B6B694 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9966CE1121768C2500B6B694 /* EntryController.swift in Sources */,
 				9966CDC22176452B00B6B694 /* ViewController.swift in Sources */,
 				9966CDC02176452B00B6B694 /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +321,7 @@
 			files = (
 				9966CDE52176452D00B6B694 /* ExtensionDelegate.swift in Sources */,
 				9966CDE32176452D00B6B694 /* InterfaceController.swift in Sources */,
+				9966CE1221768C2500B6B694 /* EntryController.swift in Sources */,
 				9966CDE72176452D00B6B694 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
