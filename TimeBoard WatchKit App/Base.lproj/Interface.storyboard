@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gmp-Uh-BfG">
-    <device id="watch38" orientation="portrait">
+    <device id="watch42" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -22,95 +22,208 @@
                             <items>
                                 <group width="1" height="18" alignment="left" id="MQR-tx-oNy">
                                     <items>
-                                        <label alignment="left" alpha="0.050000000000000003" text="ALMOST" id="L1F-xz-XmF">
+                                        <label alignment="left" text="ALMOST" id="L1F-xz-XmF">
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="21"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="21"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="25"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="24"/>
                                             </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="29"/>
+                                            </variation>
                                         </label>
-                                        <label alignment="left" alpha="0.050000000000000003" text="ABOUT" id="pd8-ZM-AF2" userLabel="About Label">
+                                        <label alignment="left" text="ABOUT" id="pd8-ZM-AF2" userLabel="About Label">
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="21"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="21"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="25"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="24"/>
+                                            </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="29"/>
                                             </variation>
                                         </label>
                                         <label alignment="left" text="100%" textAlignment="right" id="okA-UF-xf1">
                                             <color key="textColor" red="0.61336263020000004" green="0.81434174579999996" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="21"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="21"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="25"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="24"/>
                                             </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="29"/>
+                                            </variation>
                                         </label>
                                     </items>
-                                    <variation key="device=watch42mm" height="20"/>
+                                    <variation key="device=watch38mm" height="18"/>
+                                    <variation key="device=watch40mm" height="20"/>
+                                    <variation key="device=watch42mm" height="19"/>
+                                    <variation key="device=watch44mm" height="23"/>
                                 </group>
                                 <group width="1" height="21" alignment="left" contentMode="scaleAspectFit" id="xPS-AQ-3jm">
                                     <items>
-                                        <label alignment="left" alpha="0.050000000000000003" text="TWENTY" textAlignment="center" minimumScaleFactor="0.5" id="R23-xe-8kN">
+                                        <label alignment="left" text="TWENTY" textAlignment="center" minimumScaleFactor="0.5" id="R23-xe-8kN">
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="25"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="25"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="30"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="28"/>
                                             </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="35"/>
+                                            </variation>
                                         </label>
-                                        <label alignment="left" alpha="0.050000000000000003" text="HALF" textAlignment="center" minimumScaleFactor="0.5" id="kWW-vY-5dA">
+                                        <label alignment="left" text="HALF" textAlignment="center" minimumScaleFactor="0.5" id="kWW-vY-5dA">
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="25"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="25"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="30"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="28"/>
                                             </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="35"/>
+                                            </variation>
                                         </label>
-                                        <label alignment="left" alpha="0.050000000000000003" text="TEN" textAlignment="center" minimumScaleFactor="0.5" id="jNr-ks-ooa">
+                                        <label alignment="left" text="TEN" textAlignment="center" minimumScaleFactor="0.5" id="jNr-ks-ooa">
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="25"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="25"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="30"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="28"/>
+                                            </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="35"/>
                                             </variation>
                                         </label>
                                     </items>
+                                    <variation key="device=watch38mm" height="21"/>
+                                    <variation key="device=watch40mm" height="23"/>
                                     <variation key="device=watch42mm" height="24"/>
+                                    <variation key="device=watch44mm" height="27"/>
                                 </group>
                                 <group width="1" height="26" alignment="left" contentMode="scaleAspectFit" id="0jD-3P-GyO">
                                     <items>
                                         <label alignment="left" text="QUARTER" textAlignment="center" minimumScaleFactor="0.5" id="pKj-dM-c7v">
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="33"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="33"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="39"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="35"/>
                                             </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="45"/>
+                                            </variation>
                                         </label>
-                                        <label alignment="left" alpha="0.050000000000000003" text="FIVE" textAlignment="center" minimumScaleFactor="0.5" id="hSW-kT-83I">
+                                        <label alignment="left" text="FIVE" textAlignment="center" minimumScaleFactor="0.5" id="hSW-kT-83I">
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="33"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="33"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="39"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="35"/>
+                                            </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="45"/>
                                             </variation>
                                         </label>
                                     </items>
+                                    <variation key="device=watch38mm" height="26"/>
+                                    <variation key="device=watch40mm" height="30"/>
                                     <variation key="device=watch42mm" height="26"/>
+                                    <variation key="device=watch44mm" height="35"/>
                                 </group>
                                 <group width="1" height="34" alignment="left" contentMode="scaleAspectFit" id="hah-f1-a2c">
                                     <items>
-                                        <label alignment="left" alpha="0.050000000000000003" text="PAST" textAlignment="center" minimumScaleFactor="0.5" id="ITt-AX-IVH">
+                                        <label alignment="left" text="PAST" textAlignment="center" minimumScaleFactor="0.5" id="ITt-AX-IVH">
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="44"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="44"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="49"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="48"/>
+                                            </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="51"/>
                                             </variation>
                                         </label>
                                         <label alignment="left" text="TO" textAlignment="center" minimumScaleFactor="0.5" id="zRB-sx-68I">
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="44"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="44"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="49"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="48"/>
                                             </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="51"/>
+                                            </variation>
                                         </label>
                                     </items>
-                                    <variation key="device=watch42mm" height="38"/>
+                                    <variation key="device=watch38mm" height="34"/>
+                                    <variation key="device=watch40mm" height="38"/>
+                                    <variation key="device=watch42mm" height="37"/>
+                                    <variation key="device=watch44mm" height="39"/>
                                 </group>
                                 <group width="1" height="37" alignment="left" contentMode="scaleAspectFit" spacing="0.0" id="9CB-a6-a0d">
                                     <items>
                                         <label alignment="left" text="MIDNIGHT" textAlignment="center" minimumScaleFactor="0.5" id="3QU-Z3-nu8">
                                             <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="47"/>
+                                            <variation key="device=watch38mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="47"/>
+                                            </variation>
+                                            <variation key="device=watch40mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="57"/>
+                                            </variation>
                                             <variation key="device=watch42mm">
                                                 <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="53"/>
                                             </variation>
+                                            <variation key="device=watch44mm">
+                                                <fontDescription key="font" name="BebasNeueRegular" family="Bebas Neue" pointSize="64"/>
+                                            </variation>
                                         </label>
                                     </items>
-                                    <variation key="device=watch42mm" height="42"/>
+                                    <variation key="device=watch40mm" height="44"/>
+                                    <variation key="device=watch42mm" height="41"/>
+                                    <variation key="device=watch44mm" height="50"/>
                                 </group>
                             </items>
                         </group>
