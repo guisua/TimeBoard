@@ -23,6 +23,7 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var hourLabel: WKInterfaceLabel!
     @IBOutlet weak var batteryLabel: WKInterfaceLabel!
     
+    var timer: Timer!
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
@@ -39,14 +40,19 @@ class InterfaceController: WKInterfaceController {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
         refreshUI()
+        timer = Timer.scheduledTimer(withTimeInterval: 30, repeats: true, block: { (timer) in
+            self.refreshUI()
+        })
     }
     
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+        timer?.invalidate()
     }
     
     func refreshUI() {
+        print("refreshing UI")
         var level : Float = 0.12
         if WKInterfaceDevice.current().batteryState != .unknown {
             level = WKInterfaceDevice.current().batteryLevel
