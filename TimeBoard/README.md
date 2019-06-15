@@ -21,8 +21,6 @@ This App / Watch face tells time with words.
 
 :white_check_mark: English
 
-:white_check_mark: French
-
 Please keep in mind that the design depends heavily on the language and there is **no plan at the moment to add support for further localizations**. But I encourage you to fork this project and give it a try in your own language!
 ## Feedback
 
